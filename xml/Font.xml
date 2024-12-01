@@ -263,6 +263,21 @@
 			<filename>NotoMono-Regular.ttf</filename>
 			<size>24</size>
 		</font>
+        <font>
+            <name>OpenSansSemiCondensed</name>
+            <filename>OpenSans_SemiCondensed-Medium.ttf</filename>
+            <size>23</size>
+        </font>
+        <font>
+            <name>ArialUni</name>
+            <filename>arialuni.ttf</filename>
+            <size>42</size>
+        </font>
+        <font>
+            <name>ArialUniSmall</name>
+            <filename>arialuni.ttf</filename>
+            <size>23</size>
+        </font>
 	</fontset>
 	<fontset id="Arial" idloc="31053">
 		<!-- Arial Font better for non English -->
@@ -528,5 +543,20 @@
 			<filename>NotoMono-Regular.ttf</filename>
 			<size>24</size>
 		</font>
+        <font>
+            <name>OpenSansSemiCondensed</name>
+            <filename>OpenSans_SemiCondensed-Medium.ttf</filename>
+            <size>23</size>
+        </font>
+        <font>
+            <name>ArialUni</name>
+            <filename>arialuni.ttf</filename>
+            <size>42</size>
+        </font>
+        <font>
+            <name>ArialUniSmall</name>
+            <filename>arialuni.ttf</filename>
+            <size>23</size>
+        </font>
 	</fontset>
 </fonts>

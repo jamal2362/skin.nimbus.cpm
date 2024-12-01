@@ -19,6 +19,10 @@
     </control>
     <!-- <include content="OSDBackground"/> -->
     <include content="OSDBackgrounds"/>
+    <include condition="Skin.HasSetting(osd.useleftCodecLogos)">CodecLogosLeftOSD</include>
+    <include condition="Skin.HasSetting(osd.usecenterCodecLogos)">CodecLogosCenterOSD</include>
+    <include condition="Skin.HasSetting(osd.userightCodecLogos)">CodecLogosRightOSD</include>
+	
     <control type="group">
       <visible>String.IsEqual(Skin.String(OSDStyleSetting),0)</visible>
       <bottom>0</bottom>
@@ -306,8 +310,58 @@
             <onclick>SetProperty(settingslist_header,$LOCALIZE[5],home)</onclick>
             <onclick>ActivateWindow(1101)</onclick>
             <onleft>715</onleft>
+			<onright>717</onright>
             <onright condition="Control.IsVisible(703)">703</onright>
             <onright condition="!Control.IsVisible(703)">704</onright>
+          </control>
+          <control type="label">
+            <top>0</top>
+            <left>0</left>
+            <height>48</height>
+            <width>48</width>
+            <font>Font22</font>
+            <align>center</align>
+            <label></label>
+          </control>
+        </control>
+        <control type="grouplist">
+          <orientation>vertical</orientation>
+          <align>center</align>
+          <itemgap>-3</itemgap>
+          <control type="button" id="717">
+            <font>PlayerIconSmall</font>
+            <textoffsety>7</textoffsety>
+            <align>center</align>
+            <include>PlayerButton</include>
+            <label>&#xECE9;</label>
+            <onclick>SetProperty(settingslist_content,osd,home)</onclick>
+            <onclick>SetProperty(settingslist_header,$LOCALIZE[5],home)</onclick>
+            <onclick>ActivateWindow(playerprocessinfo)</onclick>
+            <onleft>716</onleft>
+            <onright>718</onright>
+          </control>
+          <control type="label">
+            <top>0</top>
+            <left>0</left>
+            <height>48</height>
+            <width>48</width>
+            <font>Font22</font>
+            <align>center</align>
+            <label></label>
+          </control>
+        </control>
+        <control type="grouplist">
+          <orientation>vertical</orientation>
+          <align>center</align>
+          <itemgap>-3</itemgap>
+          <control type="button" id="718">
+            <font>PlayerIconSmall</font>
+            <textoffsety>7</textoffsety>
+            <align>center</align>
+            <include>PlayerButton</include>
+            <label>&#xED20;</label>
+            <onclick>ActivateWindow(1189)</onclick>
+            <onleft>717</onleft>
           </control>
           <control type="label">
             <top>0</top>

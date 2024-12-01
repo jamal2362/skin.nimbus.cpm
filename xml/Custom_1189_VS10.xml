@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="1189">
+	<defaultcontrol>9000</defaultcontrol>
+	<coordinates>
+		<origin x="712" y="155"/>
+	</coordinates>
+	<include>Animation_DialogPopupOpenClose</include>
+	<controls>
+		<include>ContextFade</include>
+		<control type="group">
+			<include content="CenterContext">
+				<param name="id" value="9000" />
+			</include>
+			<width>446</width>
+			<height max="780">auto</height>
+			<!-- <usecontrolcoords>true</usecontrolcoords> -->
+			<control type="label">
+				<top>-70</top>
+				<left>-225</left>
+				<width>896</width>
+				<height>70</height>
+				<font>font36_title</font>
+				<textcolor>unfocused_text</textcolor>
+				<align>center</align>
+				<label>$LOCALIZE[32065]</label>
+			</control>
+			<control type="panel" id="9000">
+				<include>ButtonMenuList</include>
+				<content>
+					<item>
+                        <label>$LOCALIZE[32064]</label>
+                        <selected>Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),5) | [[Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),0) | Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),1)] + String.Contains(Player.Process(video.hdr.type),Dolby)]</selected>
+                        <onclick>Action(vs10.original)</onclick>
+                        <onclick>Dialog.Close(1189)</onclick>
+					</item>
+					<item>
+                        <label>VS10 SDR</label>
+                        <selected>Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),3)</selected>
+                        <onclick>Action(vs10.sdr)</onclick>
+                        <onclick>Dialog.Close(1189)</onclick>
+					</item>
+					<item>
+                        <visible>[String.Contains(Player.Process(video.hdr.type),SDR) | String.Contains(Player.Process(video.hdr.type),HLG)]</visible>
+                        <label>VS10 HDR10</label>
+                        <selected>Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),2)</selected>
+                        <onclick>Action(vs10.hdr10)</onclick>
+                        <onclick>Dialog.Close(1189)</onclick>
+					</item>
+					<item>
+                        <visible>String.Contains(Player.Process(video.hdr.type),SDR) | String.Contains(Player.Process(video.hdr.type),HDR)</visible>
+                        <label>VS10 Dolby Vision</label>
+                        <selected>[Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),0) | Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),1)] + !String.Contains(Player.Process(video.hdr.type),Dolby)</selected>
+                        <onclick>Action(vs10.dv)</onclick>
+                        <onclick>Dialog.Close(1189)</onclick>
+					</item>
+				</content>
+			</control>
+			<include content="UpDownArrows">
+				<param name="container_id" value="9000" />
+				<param name="posx" value="199" />
+				<param name="up_posy" value="-130" />
+				<param name="down_posy" value="790" />
+			</include>
+		</control>
+	</controls>
+</window>

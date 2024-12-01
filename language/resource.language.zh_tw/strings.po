@@ -747,3 +747,263 @@ msgstr "系統"
 #~ msgctxt "#31138"
 #~ msgid "Player process info"
 #~ msgstr "播放器運作資料"
+
+msgctxt "#32000"
+msgid "Display mode"
+msgstr "顯示模式"
+
+msgctxt "#32001"
+msgid "Video mode"
+msgstr "視頻模式"
+
+msgctxt "#32002"
+msgid "Color space"
+msgstr "色彩空間"
+
+msgctxt "#32003"
+msgid "Mb/s"
+msgstr "Mb/s"
+
+msgctxt "#32004"
+msgid "Bit depth"
+msgstr "色深"
+
+msgctxt "#32005"
+msgid "Decoder"
+msgstr "解碼器"
+
+msgctxt "#32006"
+msgid "VS10 engine"
+msgstr "VS10引擎"
+
+msgctxt "#32007"
+msgid "More"
+msgstr "更多"
+
+msgctxt "#32008"
+msgid "Video queue"
+msgstr "視頻佇列"
+
+msgctxt "#32009"
+msgid "Video queue data"
+msgstr "視頻佇列數據"
+
+msgctxt "#32010"
+msgid "Audio queue"
+msgstr "音頻佇列"
+
+msgctxt "#32011"
+msgid "Audio queue data"
+msgstr "音頻佇列數據"
+
+msgctxt "#32012"
+msgid "Kb/s"
+msgstr "Kb/s"
+
+msgctxt "#32013"
+msgid "DV metadata"
+msgstr "DV元數據"
+
+msgctxt "#32014"
+msgid "Processor"
+msgstr "處理器"
+
+msgctxt "#32015"
+msgid "Version"
+msgstr "版本"
+
+msgctxt "#32016"
+msgid "Profile"
+msgstr "配置文件"
+
+msgctxt "#32017"
+msgid "Level"
+msgstr "層級"
+
+msgctxt "#32018"
+msgid "RPU"
+msgstr "RPU"
+
+msgctxt "#32019"
+msgid "Base Layer"
+msgstr "基本層"
+
+msgctxt "#32020"
+msgid "Enhancement Layer"
+msgstr "增強層"
+
+msgctxt "#32021"
+msgid "Enhancement Layer Type"
+msgstr "增強層類型"
+
+msgctxt "#32022"
+msgid "Metadata"
+msgstr "元數據"
+
+msgctxt "#32023"
+msgid "Pixel format"
+msgstr "像素格式"
+
+msgctxt "#32024"
+msgid "Aspect ratio"
+msgstr "長寬比"
+
+msgctxt "#32025"
+msgid "HDR10 MDL"
+msgstr "HDR10 MDL"
+
+msgctxt "#32026"
+msgid "HDR10 MaxCLL/FALL"
+msgstr "HDR10 MaxCLL/FALL"
+
+msgctxt "#32027"
+msgid "Media source"
+msgstr "媒體來源"
+
+msgctxt "#32028"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "#32029"
+msgid "On"
+msgstr "開"
+
+msgctxt "#32030"
+msgid "Off"
+msgstr "關"
+
+msgctxt "#32031"
+msgid "Deinterlacing"
+msgstr "去交錯"
+
+msgctxt "#32032"
+msgid "Player cache"
+msgstr "播放緩存"
+
+msgctxt "#32033"
+msgid "N/A"
+msgstr "不適用"
+
+msgctxt "#32034"
+msgid "Memory usage"
+msgstr "記憶體使用量"
+
+msgctxt "#32035"
+msgid "Bit depth"
+msgstr "色深"
+
+msgctxt "#32036"
+msgid "AML FPS"
+msgstr "AML FPS"
+
+msgctxt "#32037"
+msgid "DV Configuration"
+msgstr "DV 配置"
+
+msgctxt "#32038"
+msgid "DV Levels Metadata"
+msgstr "DV 層級元數據"
+
+msgctxt "#32039"
+msgid "HDR Static Metadata"
+msgstr "HDR 靜態元數據"
+
+msgctxt "#32040"
+msgid "cd/m²"
+msgstr "cd/m²"
+
+msgctxt "#32041"
+msgid "RPU MDL"
+msgstr "RPU MDL"
+
+msgctxt "#32042"
+msgid "RPU MaxCLL/FALL"
+msgstr "RPU MaxCLL/FALL"
+
+msgctxt "#32043"
+msgid "FLL MIN / MAX / Ø"
+msgstr "FLL MIN / MAX / Ø"
+
+msgctxt "#32044"
+msgid "PQ MIN / MAX / Ø"
+msgstr "PQ MIN / MAX / Ø"
+
+msgctxt "#32045"
+msgid "12-bit"
+msgstr "12-bit"
+
+msgctxt "#32046"
+msgid "Codec"
+msgstr "編解碼器"
+
+msgctxt "#32047"
+msgid "Bitrate"
+msgstr "碼率"
+
+msgctxt "#32048"
+msgid "VS10 status"
+msgstr "VS10 狀態"
+
+msgctxt "#32051"
+msgid "Sample rate"
+msgstr "採樣率"
+
+msgctxt "#32052"
+msgid "Audio language"
+msgstr "音訊語言"
+
+msgctxt "#32053"
+msgid "Subtitle language"
+msgstr "字幕語言"
+
+msgctxt "#32054"
+msgid "Video"
+msgstr "視頻"
+
+msgctxt "#32055"
+msgid "System"
+msgstr "系統"
+
+msgctxt "#32056"
+msgid "Audio"
+msgstr "音訊"
+
+msgctxt "#32057"
+msgid "Top left"
+msgstr "左上"
+
+msgctxt "#32058"
+msgid "Top center"
+msgstr "上中"
+
+msgctxt "#32059"
+msgid "Top right"
+msgstr "右上"
+
+msgctxt "#32060"
+msgid "Position of the codec logos in the OSD"
+msgstr "OSD 中編解碼器標誌的位置"
+
+msgctxt "#32061"
+msgid "Position of the codec logos in the PlayerProcessInfo"
+msgstr "PlayerProcessInfo 中編解碼器標誌的位置"
+
+msgctxt "#32062"
+msgid "Show codec logos when video starts"
+msgstr "視頻開始時顯示編解碼器標誌"
+
+msgctxt "#32063"
+msgid "Codec logos"
+msgstr "編解碼器標誌"
+
+msgctxt "#32064"
+msgid "Original"
+msgstr ""
+
+msgctxt "#32065"
+msgid "VS10 mode"
+msgstr ""
+
+msgctxt "#32066"
+msgid "Coloured title lines in PlayerProcessInfo"
+msgstr ""

@@ -15,6 +15,7 @@
 	<include file="Includes_FlixPanel.xml" />
 	<include file="Includes_Weather.xml" />
 	<include file="Includes_Seekbar.xml" />
+    <include file="Includes_CodecLogos.xml"/>
 	<include file="script-nimbus-main_menu_movies.xml" />
 	<include file="script-nimbus-main_menu_tvshows.xml" />
 	<include file="script-nimbus-main_menu_custom1.xml" />
